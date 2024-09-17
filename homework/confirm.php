@@ -4,7 +4,6 @@ $fullName = $_SESSION["name"];
 $classes = $_SESSION["classList"];
 $textIn = $_POST["text"];
 $_SESSION["text"] = $textIn;
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -20,9 +19,9 @@ $_SESSION["text"] = $textIn;
             echo "$class<br>";
         }
         echo "<h2>Personal Accomplishents</h2>";
-        echo $textIn."<br>";
+        echo $textIn . "<br>";
         ?>
-        
+
         <form action="result.php" method="POST">
             <input type="submit" value = "Submit">
         </form>

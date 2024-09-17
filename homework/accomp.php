@@ -12,7 +12,7 @@ $_SESSION["classList"] = $classes;
     </head>
     <body>
         <form action="confirm.php" method="POST">
-            List any personal Accomplishments: <textarea name="text" cols="40" rows="5"></textarea>
+            List any personal Accomplishments: <textarea name="text" cols="40" rows="10"></textarea>
             <input type="Submit">
         </form>
     </body>
